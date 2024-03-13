@@ -1,0 +1,6 @@
+<launch>
+    <node name="save_pointcloud_node" pkg="pointcloud_msg_saver" type="pointcloud_msg_saver_node" output="screen">
+        <param name="topic" value="/pointcloud_topic"/>
+        <param name="output_path" value="output.pcd"/>
+    </node>
+</launch>
